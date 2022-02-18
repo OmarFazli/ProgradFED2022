@@ -1,24 +1,14 @@
 body{
-    background-color: aqua;
+    background-color: lightgray;
 }
 
-#d1{
-    background: blue;
-}
-
-#d2{
-    background: lightgreen;
-}
-
-#d3{
-    
-}
-
-div{
-    background: yellow;
-    border: 5px solid black;
-    padding: 10px;
-    margin: auto;
-    width: 100px;
+.headrow{
     text-align: center;
+}
+
+#submit{
+    background-color: lightgreen;
+}
+#cancel{
+    background-color: salmon;
 }
