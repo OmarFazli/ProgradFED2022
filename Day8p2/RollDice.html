@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="RollDiceStyle.css">
+</head>
+<body>
+    <script src="RollDiceScript.js"></script>
+
+    <h1>Dice Game!</h1>
+    <br><br>
+    <div>In this game, players take turns rolling a dice. Each roll is added to that player's total score. The first player to cross the preset score wins. Good luck!</div>
+    <br><br>
+    <table>
+        <tr>
+            <td>Player 1 Score: </td>
+            <td><input type="number" id="ply1"></td>
+        </tr>
+        <tr>
+            <td>Player 2 Score: </td>
+            <td><input type="number" id="ply2"></td>
+        </tr>
+    </table>
+    <br>
+    <button id="btn" label="Roll Dice" onclick=rollDice()>Roll Dice</button>
+    <br><br>
+    <h1 id="result"></h1>
+</body>
+</html>

@@ -14,5 +14,4 @@ function greet(){
     document.getElementById("out").value = "Hi " + name
     document.getElementById("txt").value = "Hi " + name
     document.getElementById("para").innerHTML = '<h1>' + "Hi " + name + "</h1>"
-
 }

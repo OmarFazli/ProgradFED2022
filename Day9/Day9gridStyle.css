@@ -1,0 +1,16 @@
+#parent{
+    background: blue;
+    padding:10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 30px;
+}
+#parent > div{
+    background: skyblue;
+    padding: 10px;
+    border: 2px solid black;
+    margin:10px;
+}
+#child{
+    grid-row: 1/4;
+}
